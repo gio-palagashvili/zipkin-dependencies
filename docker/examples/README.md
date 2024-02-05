@@ -10,7 +10,7 @@ To start the default docker-compose configuration, run:
 # choose a specific tag, 'latest' for the last released or 'master' for last built.
 $ export TAG=latest
 # choose from cassandra3, elasticsearch or mysql
-$ STORAGE_TYPE=elasticsearch
+$ export STORAGE_TYPE=elasticsearch
 # start the example setup
 $ docker-compose -f docker-compose.yml -f docker-compose-${STORAGE_TYPE}.yml up
 ```
